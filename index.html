@@ -15,10 +15,21 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+        
 
     </head>
     <body class="d-flex flex-column h-100">
+        <div id="loading-section">
+            <div class="spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                
+            </div>
+        </div>
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -79,19 +90,13 @@
                                     <h2 class="h5" style="font-size: 23px;">Socials</h2>
                                     <p class="mb-0" style="font-size: 18px;">LinkedIn <i class="bi bi-linkedin"></i> : <a href="https://www.linkedin.com/in/meermodi/" style="text-decoration: underline; color: blue;">linkedin.com/in/meermodi</a></p>
                                     <p class="mb-0" style="font-size: 18px;">GitHub <i class="bi bi-github"></i> : <a href="https://github.com/MeerModii" style="text-decoration: underline; color: blue;">github.com/MeerModii</a></p>
-                                    <p class="mb-0" style="font-size: 18px;">Portfolio & Projects <i class="bi bi-code-slash"></i> : <a href="meermodi.study" style="text-decoration: underline; color: blue;">meermodi.us</a></p>
+                                    <p class="mb-0" style="font-size: 18px;">Portfolio & Projects <i class="bi bi-code-slash"></i> : <a href="meermodi.study" style="text-decoration: underline; color: blue;">meermodi.study</a></p>
                                 </div>
                                 <div class="col mb-5 mb-md-0 h-100">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-file-earmark-person"></i></div>
                                     <h2 class="h5" style="font-size: 23px;">Resume & Transcript</h2>
                                     <p class="mb-0" style="font-size: 18px;">Download <i class="bi bi-download"></i> :  <a href="Documents/Meer Modi Resume.pdf" download style="text-decoration: underline; color: blue;"> Resume</a> & <a href="Documents/Meer Modi Transcript.pdf" download style="text-decoration: underline; color: blue;">Transcript</a></p>
                                 </div>
-                                <!-- <div class="col mb-5 mb-md-0 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-code-square"></i></i></div>
-                                    <h2 class="h5" style="font-size: 23px;">Technical Skills</h2>
-                                    <p class="mb-0" style="font-size: 18px;">Java, JavaFX, API Integration, PHP, PHPMyAdmin, Python, JavaScript, SQL, HTML5, CSS, Kotlin, Android 
-                                        Studio, Linux, JQuery</p>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -188,16 +193,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="container px-5 my-5">
-                            <div class="row gx-5 justify-content-center">
-                                <div class="col-lg-8 col-xl-6">
-                                    <div class="text-center">
-                                        <h2 class="fw-bolder">Explore More Projects</h2><br>
-                                        <a class="btn btn-primary btn-lg px-4 me-sm-3" href="myProjects.html">Let's Explore</a>                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+
                         <div class="text-end mb-5 mb-xl-0">
                             <a class="text-decoration-none" href="myProjects.html" style="font-size: 24px;"> More Projects <i class="bi bi-arrow-right-square-fill"></i></a>
                         </div>
@@ -206,12 +202,18 @@
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
-
             </div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Hide loading section once the content is loaded
+                document.getElementById("loading-section").style.display = "none";
+            });
+        </script>
+        
     </body>
 </html>
