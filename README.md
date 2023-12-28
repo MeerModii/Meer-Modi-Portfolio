@@ -1,4 +1,4 @@
-# Meer Modi's Portfolio meermodi.study
+# Meer Modi's Portfolio [meermodi.study](https://meermodi.study/)
 
 Welcome to my portfolio! This space showcases my projects, educational background, work experience, and more.
 
