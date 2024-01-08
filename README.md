@@ -25,17 +25,17 @@ Welcome to my portfolio! This space showcases my projects, educational backgroun
 - Position: Grader & Proctor (Data & Computer Sciences)
 - Duration: January 2023 - Present
 - Responsibilities:
-  - Administered and Proctored 5 Computing courses at NJIT while enforcing academic integrity
-  - Responsible for calculating final grades of more than 150 students and inputting them into NJIT’s database
-  - Provided valid solutions and feedback to improve overall performance
+  - Administered, Proctored, and Graded Data Science courses at the university while enforcing academic integrity.
+  - Increased efficiency in grading, calculated final grades of more than 150 students while meeting strict deadlines.
+  - Enhanced grading accuracy by standardizing the evaluation process and providing clear rubrics for assignments.
 
 ### CVS Pharmacy
 - Position: Pharmacy Technician
 - Duration: June 2022 – October 2022
 - Responsibilities:
-  - Assisted the pharmacist in providing pharmaceutical care to all patients
-  - Responsible for entering prescriptions, resolving insurance queries, and maintaining a record of the inventory
-  - Filled prescriptions for customers by measuring, preparing, and packing medications
+  - Streamlined prescription processing with accurate data entry and verification of patient information.
+  - Enhanced pharmacy workflow by assisting pharmacists with medication dispensing, and labeling.
+  - Improved patient satisfaction by processing prescriptions and managing medical inventory.
 
 ## Projects
 
@@ -53,17 +53,21 @@ Welcome to my portfolio! This space showcases my projects, educational backgroun
 - GitHub: [github.com/MeerModii/Trip-Sync](https://github.com/MeerModii/Trip-Sync)
 - Portfolio: [meermodi.study](https://meermodi.study)
 
-### Coin Wave
+### E-Commerce Management Dashboard
 - Duration: November 2023 - Present
-- Technologies Used: Kotlin, Android Studio, Coin Market Cap API
-- Description: Coin Wave is an Android application that uses APIs to provide real-time data and prices for both cryptocurrencies and fiat currencies. It features a smooth and dynamic user interface, offering users a seamless experience as they navigate financial markets.
-- GitHub: [github.com/MeerModii/Coin-Wave](https://github.com/MeerModii/Coin-Wave)
+- Technologies Used: ElectronJs, JavaScript, SQL, PHP, HTML, CSS, Bootstrap, Node Modules
+- Description: Engineered an E-Commerce management system utilizing JavaScript frameworks. This cutting-edge solution 
+provides valuable insights into company sales, demographics, real-time inventory management, employee details, 
+and transaction resolution. It optimizes administrative tasks, resulting in a substantial boost to overall business 
+productivity.
+- GitHub: [github.com/MeerModii/E-Commerce-Management-System](https://github.com/MeerModii/E-Commerce-Management-System)
 - Portfolio: [meermodi.study](https://meermodi.study)
 
 ## Skills
 
 ### Technical
-- Java, Data Structures & Algorithms, JavaFX, API Integration, PHP, phpMyAdmin, JavaScript, Python, SQL, MySQL, HTML, CSS, Kotlin, Android Studio, Linux, jQuery
+- Java, Data Structures & Algorithms, JavaFX, API Integration, Python, MySQL, Software Development, 
+PHP, ElectronJs, JavaScript, SQL, HTML, CSS, Kotlin, Android Studio, Linux, jQuery.
 
 ### General
 - Microsoft Office, Problem Solving, Time Management, Teamwork, Adaptability, Critical Thinking
